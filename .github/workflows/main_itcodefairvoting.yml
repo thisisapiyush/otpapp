@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'itcodefairvoting'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5251FBC8AF07450BADCB5B95F985C5F1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5FC3BA3F09974DD5BD2781E5DDB3A924 }}
           package: .
