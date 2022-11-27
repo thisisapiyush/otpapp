@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%- include('_header'); -%>
 
 
@@ -19,4 +20,31 @@
 
     </center>
 </body>
+=======
+<%- include('_header'); -%>
+<style>
+    body {
+      background-image: url('codefair.jpeg');
+    }
+</style>
+<body>
+<body>
+    <center>
+    <h1>
+    <form action="result" method="POST">
+        <label>Your name</label><br>
+        <input type="text" name="name" value="<%= info.name %>"><br>
+        <label>Your number</label><br>
+        <input type="text" name="num" value="<%= info.number %>"><br>
+        <label>Enter OTP</label><br>
+        <input type="text" name="otp"><br>
+        <br>
+        <button type="submit">Verify</button>
+    </form>
+    </h1>
+
+
+    </center>
+</body>
+>>>>>>> df7f9f9ed2231ae39ea684d1551ae673f527f383
 <%- include ('_footer'); -%>
