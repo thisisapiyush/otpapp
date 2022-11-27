@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/2a2d3a18-40e8-4be5-864d-67b604cc3e7a/appservices/subscriptions/2a2d3a18-40e8-4be5-864d-67b604cc3e7a/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/itcodefairvoting",
+    "appService.deploySubpath": "."
+}
